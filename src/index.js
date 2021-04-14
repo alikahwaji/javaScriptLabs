@@ -3,7 +3,6 @@
  * Q: Create a function that takes an array and returns the types of values (data types) in a new array.
  * Ex: arrDataTypes(["214", true, false, 2, 2.15, [], null])//  ["string", "boolean", "boolean", "number", "number", "object", "object"]
  */
-
 // ES5
 function arrayDataTypes(arr) {
   let newArray = [];
@@ -43,7 +42,7 @@ let rotateByOne = a => [a.pop(), ...a];
 Your function should split this array into two new arrays. The first array should contain only even numbers. 
 The second only odd. Then, wrap these two arrays in one main array and return it.
 Return an empty array if there are no even numbers, or odd.
-EX: cleanUpArray(["9", "4", "5", "8"]) ➞ [[4, 8], [9, 5]]
+EX: cleanUpArray(["9", "4", "5", "8"]) ➞ k
  */
 
 //ES5
